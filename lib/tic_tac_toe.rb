@@ -78,8 +78,7 @@ end
 
 
 def move(index, player_token="X")
-  board[index] = player_token
-  @board = board
+  @board[index] = player_token
   over?
 end
 
