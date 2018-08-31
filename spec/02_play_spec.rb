@@ -45,7 +45,7 @@ describe './lib/tic_tac_toe.rb' do
         game.play
 
         board_after_three_turns = game.instance_variable_get(:@board)
-        expect(board_after_three_turns).to match_array(["X", "X", "X", " ", " ", " ", " ", " ", " "])
+        expect(board_after_three_turns).to match_array(["X", "O", "X", " ", " ", " ", " ", " ", " "])
       end
 
       it 'checks if the game is won after every turn' do
