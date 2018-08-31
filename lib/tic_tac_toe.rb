@@ -49,7 +49,7 @@ def turn
     player_token = current_player
     move(index, player_token)
   else
-    turn
+    nil
   end
   display_board
 end
