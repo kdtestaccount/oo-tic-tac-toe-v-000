@@ -51,7 +51,7 @@ def turn
   else
     turn
   end
-  @board
+  display_board
 end
 
 def input_to_index(input)
