@@ -26,8 +26,8 @@ end
  
 
 def play
-  puts @board
   until over? == true
+    puts @board
     turn
   end
   
